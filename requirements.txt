@@ -1,0 +1,18 @@
+# hospital-sim-ui: direct Python dependencies, pinned to the shared .venv (venv_local.txt, 2026-10-10).
+#   source env.sh && .venv/bin/pip install -r hospital-sim-ui/requirements.txt
+#   .venv/bin/playwright install webkit        # only for app/tests (Playwright WebKit, iPad Pro 11 profile)
+#
+# From ROS 2 Humble apt (system site-packages, not pip): rclpy, std_msgs, sensor_msgs, geometry_msgs, nav_msgs,
+#   rosgraph_msgs, rcl_interfaces, builtin_interfaces, tf2_ros (ros-humble-tf2-ros-py), nav2_msgs
+#   (ros-humble-nav2-msgs), slam_toolbox (ros-humble-slam-toolbox), std_srvs, unitree_hg.
+# From ros2_ws (hospital-sim-ros2): g1_interfaces, g1_teleop_manager, g1_mujoco_sim (g1-mujoco-sim), rasterize_world.
+# From Ubuntu apt (system site-packages, not in the venv freeze):
+#   cryptography 3.4.8 (python3-cryptography)  server/tls/make_cert.py
+#   Pillow 9.0.1 (python3-pil)                 server/maps.py map previews, tools/mock_robot.py camera frames
+#   pytest 6.2.5 (python3-pytest)              server/tests
+
+aiohttp==3.14.3
+PyYAML==6.0.3
+numpy==1.26.4
+opencv-contrib-python==4.10.0.84
+playwright==1.63.0

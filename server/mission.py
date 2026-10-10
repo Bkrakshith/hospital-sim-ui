@@ -223,7 +223,7 @@ class MissionLink:
                 if not obb or len(obb) < 5:
                     continue
                 cx, cy, w, h, ang = obb[:5]
-                # hospital-sim-perception/README.md: angle in degrees [0, 180), w = long side, image x right / y down
+                # OBB convention: angle in degrees [0, 180), w = long side, image x right / y down
                 box = cv2.boxPoints(((cx, cy), (w, h), float(ang))).astype(np.int32)
                 col = amber if d.get('label') == target else green
                 cv2.polylines(img, [box], True, col, 2, cv2.LINE_AA)
