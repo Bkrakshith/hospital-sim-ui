@@ -478,3 +478,11 @@ Nothing is deployed on a real robot.
   with no jammy package (`libjxl.so.0.8`, `libbacktrace.so.0`, used only for JPEG-XL decoding and crash
   backtraces) were replaced by empty stub libraries. All were copied into the scratch WebKit bundle. The app
   never uses JPEG-XL.
+
+## License
+
+The license of this repository is the Apache License, Version 2.0 (see `LICENSE`).
+You can use, change and share this work, also for commercial use.
+If you share this work or a work that you built on it, keep the `NOTICE` file.
+Give this credit in your documentation and product credits: "Based on hospital-sim by Bkrakshith (https://github.com/Bkrakshith/hospital-sim)".
+To cite this work in a publication, use `CITATION.cff`.
