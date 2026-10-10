@@ -1,0 +1,11 @@
+# Display names for the instrument catalogue (ros2_ws/src/hospital-sim-ros2/g1_mission/config/instruments.yaml ids).
+# handle_first: readback says "handle first" (all instruments are presented handle first by the handover skill).
+instruments:
+  scalpel_handle: {name: Scalpel}
+  adson_forceps: {name: Adson forceps}
+  angled_tweezers: {name: Angled tweezers}
+  scissors: {name: Mayo scissors}
+  needle_driver: {name: Needle driver}
+  veress_needle: {name: Veress needle}
+  trocar: {name: Trocar}
+  forceps: {name: Forceps}

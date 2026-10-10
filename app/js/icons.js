@@ -1,0 +1,97 @@
+// Outline icon set, 24-unit grid, 2-unit stroke, round caps (05 §9 "Iconography").
+// Drawn for this app in the style of Lucide (ISC); bundled here, no CDN. Custom glyphs: robot-arrow,
+// robot-hand, hand-walk, hand-arm, hand-stop, handover.
+const P = {
+  stop: '<path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V12"/><path d="M11 5.5v-1a1.5 1.5 0 0 1 3 0V12"/><path d="M14 5.5a1.5 1.5 0 0 1 3 0V12"/><path d="M17 7.5a1.5 1.5 0 0 1 3 0V15a7 7 0 0 1-7 7h-1.2a6 6 0 0 1-4.6-2.2L3.6 15.3a1.6 1.6 0 0 1 2.3-2.2L8 15"/>',
+  power: '<path d="M12 2v10"/><path d="M18.4 6.6a9 9 0 1 1-12.8 0"/>',
+  play: '<path d="M7 4.5v15l12-7.5z"/>',
+  pause: '<rect x="6" y="4.5" width="4" height="15" rx="1"/><rect x="14" y="4.5" width="4" height="15" rx="1"/>',
+  pauseCircle: '<circle cx="12" cy="12" r="9.5"/><path d="M10 9v6M14 9v6"/>',
+  robotArrow: '<rect x="4" y="6" width="11" height="9" rx="3"/><path d="M9.5 3v3"/><circle cx="8" cy="10.5" r=".6" fill="currentColor"/><circle cx="11" cy="10.5" r=".6" fill="currentColor"/><path d="M7 15v4M12 15v4"/><path d="M17 10.5h5M19.5 8l2.5 2.5-2.5 2.5"/>',
+  robotHand: '<rect x="3" y="5" width="10" height="8.5" rx="3"/><path d="M8 2v3"/><circle cx="6.5" cy="9.2" r=".6" fill="currentColor"/><circle cx="9.5" cy="9.2" r=".6" fill="currentColor"/><path d="M13 11h3.5l2-2.5M16.5 11l2.5 2M6 13.5V20M10 13.5V20"/>',
+  robot: '<rect x="5" y="7" width="14" height="10" rx="3.5"/><path d="M12 3.5V7"/><circle cx="12" cy="3" r="1"/><circle cx="9.5" cy="12" r=".9" fill="currentColor"/><circle cx="14.5" cy="12" r=".9" fill="currentColor"/><path d="M9 17v3.5M15 17v3.5M2.5 11v2M21.5 11v2"/>',
+  hand: '<path d="M18 11V6a2 2 0 0 0-4 0v0"/><path d="M14 10V4a2 2 0 0 0-4 0v2"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.9-5.9-2.4l-3.6-3.6a2 2 0 0 1 2.8-2.8L7 15"/>',
+  handWalk: '<path d="M14 9V5a1.6 1.6 0 0 0-3.2 0v5"/><path d="M10.8 9.5V6.5a1.6 1.6 0 0 0-3.2 0V13"/><path d="M14 7.5a1.6 1.6 0 0 1 3.2 0V13a6 6 0 0 1-6 6h-.8a5 5 0 0 1-3.9-1.8L4 14.4"/><path d="M17 20.5l2-2.5 2.5 1M19 18l-.5-2.5"/>',
+  handArm: '<path d="M14 9V5a1.6 1.6 0 0 0-3.2 0v5"/><path d="M10.8 9.5V6.5a1.6 1.6 0 0 0-3.2 0V13"/><path d="M14 7.5a1.6 1.6 0 0 1 3.2 0V13a6 6 0 0 1-6 6h-.8a5 5 0 0 1-3.9-1.8L4 14.4"/><path d="M18.5 21l2.5-4.5-2-2"/>',
+  walk: '<circle cx="13" cy="4" r="1.8"/><path d="M9 21l3-6 3 2.5V22"/><path d="M8 11l2.5-3.5h3.5l2 3.5 3 1"/><path d="M12 15l-1-4"/>',
+  arm: '<path d="M4 20l5-5 3 1 5-6"/><path d="M17 10l2.5-3M17 10l3.5 1"/><circle cx="9" cy="15" r="1.4"/><circle cx="12" cy="16" r="1.4"/>',
+  check: '<path d="M4.5 12.5l5 5L20 7"/>',
+  checkCircle: '<circle cx="12" cy="12" r="9.5"/><path d="M8 12.3l2.8 2.8L16.3 9.5"/>',
+  triangle: '<path d="M10.3 3.9L2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4.5"/><circle cx="12" cy="17.2" r=".7" fill="currentColor"/>',
+  octagon: '<path d="M7.9 2.5h8.2l5.4 5.4v8.2l-5.4 5.4H7.9l-5.4-5.4V7.9z"/><path d="M12 7.5v5.5"/><circle cx="12" cy="16.5" r=".7" fill="currentColor"/>',
+  info: '<circle cx="12" cy="12" r="9.5"/><path d="M12 11v6"/><circle cx="12" cy="7.8" r=".7" fill="currentColor"/>',
+  pin: '<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/>',
+  scissors: '<circle cx="6" cy="6.5" r="3"/><circle cx="6" cy="17.5" r="3"/><path d="M20 4L8.1 15.1M14.5 14.5L20 20M8.1 8.9L12 12"/>',
+  tray: '<path d="M3 13l2.2-7.2A2 2 0 0 1 7.1 4.5h9.8a2 2 0 0 1 1.9 1.3L21 13"/><path d="M3 13h5l1.5 2.5h5L16 13h5v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>',
+  home: '<path d="M3 11l9-7.5 9 7.5"/><path d="M5.5 9.5V20h13V9.5"/><path d="M10 20v-6h4v6"/>',
+  dock: '<path d="M4 20h16"/><path d="M6 20V9l6-5 6 5v11"/><path d="M12 11v5M10 14l2 2 2-2"/>',
+  comeHere: '<circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="8" stroke-dasharray="2.5 3"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3"/>',
+  status: '<path d="M3 12h4l2.5-6 5 12 2.5-6h4"/>',
+  checks: '<rect x="5" y="3.5" width="14" height="18" rx="2.5"/><path d="M9 3.5V2.5h6v1"/><path d="M8.5 11l2 2 4-4M8.5 17h7"/>',
+  help: '<circle cx="12" cy="12" r="9.5"/><path d="M9.3 9.3a2.8 2.8 0 0 1 5.4 1c0 1.9-2.7 2.4-2.7 4.2"/><circle cx="12" cy="17.6" r=".7" fill="currentColor"/>',
+  map: '<path d="M9 4L3 6.5v13.5L9 17.5l6 2.5 6-2.5V4L15 6.5z"/><path d="M9 4v13.5M15 6.5V20"/>',
+  joystick: '<circle cx="12" cy="7" r="3.5"/><path d="M12 10.5V16"/><path d="M4 16.5h16a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-2.5a1 1 0 0 1 1-1z"/>',
+  camera: '<path d="M4 7h3l1.8-2.5h6.4L17 7h3a1.5 1.5 0 0 1 1.5 1.5v10A1.5 1.5 0 0 1 20 20H4a1.5 1.5 0 0 1-1.5-1.5v-10A1.5 1.5 0 0 1 4 7z"/><circle cx="12" cy="13" r="3.8"/>',
+  mission: '<path d="M4 5h3M4 12h3M4 19h3"/><path d="M11 5h9M11 12h9M11 19h6"/>',
+  steps: '<circle cx="5" cy="5" r="2"/><circle cx="5" cy="12" r="2"/><circle cx="5" cy="19" r="2"/><path d="M5 7v3M5 14v3M10 5h10M10 12h10M10 19h7"/>',
+  gauge: '<path d="M12 14l4-5"/><path d="M3.5 17a9 9 0 1 1 17 0"/><circle cx="12" cy="14" r="1.3"/>',
+  layers: '<path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/>',
+  logs: '<path d="M14 2.5H6a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8.5z"/><path d="M14 2.5v6h6M8 13h8M8 17h6"/>',
+  shield: '<path d="M12 21.5s8-3.5 8-10V5l-8-3-8 3v6.5c0 6.5 8 10 8 10z"/><path d="M8.8 11.8l2.2 2.2 4.3-4.3"/>',
+  bug: '<rect x="7" y="7.5" width="10" height="12.5" rx="5"/><path d="M9 7.5V6a3 3 0 0 1 6 0v1.5M12 11v9M3 13h4M17 13h4M4 7.5l3 2M20 7.5l-3 2M4 19.5l3-2M20 19.5l-3-2"/>',
+  wrench: '<path d="M14.7 6.3a4.5 4.5 0 0 0 5.9 5.9L11 21.8a2.5 2.5 0 0 1-3.5-3.5l9.6-9.6"/><path d="M14.7 6.3a4.5 4.5 0 0 1 5.3-3.7l-2.8 2.8.6 2.2 2.2.6 2.8-2.8a4.5 4.5 0 0 1-3.7 5.3"/>',
+  sparkles: '<path d="M10 3l1.8 5.2L17 10l-5.2 1.8L10 17l-1.8-5.2L3 10l5.2-1.8z"/><path d="M18.5 14.5l.9 2.1 2.1.9-2.1.9-.9 2.1-.9-2.1-2.1-.9 2.1-.9z"/>',
+  bell: '<path d="M6 8.5a6 6 0 0 1 12 0c0 7 3 8.5 3 8.5H3s3-1.5 3-8.5"/><path d="M10.3 20.5a1.9 1.9 0 0 0 3.4 0"/>',
+  moon: '<path d="M20.5 14.5A8.5 8.5 0 1 1 9.5 3.5a6.8 6.8 0 0 0 11 11z"/>',
+  sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2.2M12 19.8V22M4.9 4.9l1.6 1.6M17.5 17.5l1.6 1.6M2 12h2.2M19.8 12H22M4.9 19.1l1.6-1.6M17.5 6.5l1.6-1.6"/>',
+  speaker: '<path d="M11 5L6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/>',
+  speakerOff: '<path d="M11 5L6 9H3v6h3l5 4z"/><path d="M22 9l-6 6M16 9l6 6"/>',
+  signal: '<path d="M4 20v-3M9 20v-7M14 20V9M19 20V4"/>',
+  battery: '<rect x="2.5" y="7" width="17" height="10" rx="2.5"/><path d="M22 10.5v3"/>',
+  lock: '<rect x="4.5" y="10.5" width="15" height="11" rx="2.5"/><path d="M8 10.5V7a4 4 0 0 1 8 0v3.5"/>',
+  unlock: '<rect x="4.5" y="10.5" width="15" height="11" rx="2.5"/><path d="M8 10.5V7a4 4 0 0 1 7.8-1.3"/>',
+  user: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
+  badge: '<rect x="4" y="3" width="16" height="18" rx="2.5"/><circle cx="12" cy="10" r="3"/><path d="M8 17a4 4 0 0 1 8 0M10 3v2h4V3"/>',
+  back: '<path d="M15 5l-7 7 7 7"/>',
+  chevron: '<path d="M9 5l7 7-7 7"/>',
+  x: '<path d="M6 6l12 12M18 6L6 18"/>',
+  undo: '<path d="M9 14L4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/>',
+  hourglass: '<path d="M6 2.5h12M6 21.5h12"/><path d="M7 2.5c0 5 10 5 10 9.5s-10 4.5-10 9.5M17 2.5c0 5-10 5-10 9.5s10 4.5 10 9.5"/>',
+  send: '<path d="M21.5 2.5L10.5 13.5"/><path d="M21.5 2.5l-7 19-4-8-8-4z"/>',
+  crosshair: '<circle cx="12" cy="12" r="8"/><path d="M12 2v5M12 17v5M2 12h5M17 12h5"/>',
+  plus: '<path d="M12 5v14M5 12h14"/>',
+  minus: '<path d="M5 12h14"/>',
+  fit: '<path d="M4 9V5a1 1 0 0 1 1-1h4M15 4h4a1 1 0 0 1 1 1v4M20 15v4a1 1 0 0 1-1 1h-4M9 20H5a1 1 0 0 1-1-1v-4"/>',
+  route: '<circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="5" r="2.5"/><path d="M8.5 19H16a3.5 3.5 0 0 0 0-7H8a3.5 3.5 0 0 1 0-7h7.5"/>',
+  clean: '<path d="M4 20l6.5-6.5M9 9l6 6"/><path d="M13 5l6 6-5.5 5.5-6-6z"/><path d="M18 2.5l.6 1.4 1.4.6-1.4.6-.6 1.4-.6-1.4-1.4-.6 1.4-.6z"/>',
+  handover: '<path d="M2.5 14.5l3.5-3h4l3 2.5"/><path d="M13 14l3.5-2.5a1.5 1.5 0 0 1 2 2.2L14 18H8"/><path d="M21.5 9.5l-3.5 3"/><path d="M9 6.5l3-3 3 3M12 3.5v6"/>',
+  clock: '<circle cx="12" cy="12" r="9.5"/><path d="M12 6.5V12l3.5 2"/>',
+  external: '<path d="M14 4h6v6M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
+  terminal: '<rect x="2.5" y="4" width="19" height="16" rx="2.5"/><path d="M6.5 9l3 3-3 3M12 15h5"/>',
+  record: '<circle cx="12" cy="12" r="5" fill="currentColor"/>',
+  eye: '<path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+  grip: '<path d="M7 20c0-4 2-7 5-7s5 3 5 7"/><path d="M8.5 13L6 4.5M15.5 13L18 4.5M12 13V3.5"/>',
+  gripOpen: '<path d="M7 20c0-4 2-7 5-7s5 3 5 7"/><path d="M8.5 13L3.5 6M15.5 13L20.5 6M12 13V3.5"/>',
+  flag: '<path d="M5 21V4M5 4h11l-2 4 2 4H5"/>',
+  refresh: '<path d="M20.5 12a8.5 8.5 0 1 1-2.5-6"/><path d="M20.5 3.5V8H16"/>',
+  target: '<circle cx="12" cy="12" r="9.5"/><circle cx="12" cy="12" r="5.5"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/>',
+  link: '<path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1 1"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1-1"/>',
+  linkOff: '<path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1 1"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1-1"/><path d="M3 3l18 18"/>',
+  sim: '<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/><path d="M8 12l2.5-3 2 2 3.5-4"/>',
+  people: '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8M18 14a6.5 6.5 0 0 1 3.5 6"/>',
+  seat: '<circle cx="12" cy="4" r="2"/><path d="M12 6.5v6.5H7.5"/><path d="M8.5 9.5h7M15.5 9.5v-1M8.5 9.5v-1"/><path d="M6 13h10v3M7 16v5M16 16v5"/>',
+};
+
+export function icon(name, size = 24, extra = '') {
+  const d = P[name] || P.info;
+  return `<svg class="ic ic-${name}" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" ${extra}>${d}</svg>`;
+}
+
+// DOM node version
+export function iconEl(name, size = 24) {
+  const t = document.createElement('template');
+  t.innerHTML = icon(name, size);
+  return t.content.firstChild;
+}
+
+export const ICON_NAMES = Object.keys(P);

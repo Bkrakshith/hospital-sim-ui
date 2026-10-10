@@ -1,0 +1,156 @@
+/* G1 Theatre app: design tokens (docs/ui/05_design_direction.md §2-§5, §9).
+   Two themes: Light (bright theatre, corridors, workshop) and Theatre dim (laparoscopic / robotic cases).
+   The theme is set on <html data-theme="light|dim"> before first paint (index.html), so there is no white flash.
+   Every state colour is semantic and always paired with an icon and a word (CVD rule, 05 §3.3). */
+
+:root {
+  /* ---------- neutrals (Light) ---------- */
+  --bg: #F4F6F8;
+  --surface: #FFFFFF;
+  --surface-2: #EEF1F4;
+  --surface-3: #E3E8ED;          /* pressed / selected tile */
+  --border: #C9D1DA;             /* decorative hairlines only */
+  --border-strong: #7F8A97;      /* control outlines: >= 3:1 against bg and surface (WCAG 1.4.11) */
+  --text: #0E1621;
+  --text-2: #4A5563;
+  --text-on-fill: #FFFFFF;
+  --scrim: rgba(14, 22, 33, 0.38);
+  --shadow: 0 1px 2px rgba(14, 22, 33, 0.06), 0 8px 24px rgba(14, 22, 33, 0.06);
+
+  /* ---------- state colours (Light) ---------- */
+  --robot-driving: #1F5FD6;      /* NAV / AUTO: the robot is driving */
+  --robot-driving-soft: #E4EDFC;
+  --person-driving: #B0307A;     /* LOCO / MANIP: a person is driving (+ stripes + hand icon) */
+  --person-driving-soft: #F8E6F0;
+  --standby: #516173;            /* STAND */
+  --standby-soft: #E6EAEF;
+  --off: #7A8591;                /* DAMP (non-text only) */
+  --off-soft: #ECEEF1;
+  --ok: #0B7A5C;
+  --ok-soft: #E1F2EC;
+  --alarm-high: #C81E1E;         /* High alarm text; Stop fill */
+  --alarm-high-fill: #C81E1E;
+  --alarm-high-soft: #FBE7E6;
+  --alarm-med: #8A4B00;          /* Medium alarm text */
+  --alarm-med-fill: #F5A524;
+  --alarm-med-soft: #FDF1DC;
+  --on-alarm-med: #1A1206;       /* dark text on amber fill, 8.9:1 */
+  --alarm-low: #0B6A80;
+  --alarm-low-fill: #2CC5DD;
+  --alarm-low-soft: #DFF4F8;
+  --on-alarm-low: #06222A;
+  --accent: var(--robot-driving);
+  --focus: #1F5FD6;
+  --stripe: rgba(255, 255, 255, 0.14);
+
+  /* camera / photos: full brightness in Light */
+  --media-dim: 1;
+
+  /* map */
+  --map-bg: #E9EDF1;
+  --map-free: #FFFFFF;
+  --map-occ: #56606E;
+  --map-unknown: #DDE2E8;
+  --map-room: #FFFFFF;
+  --map-room-edge: #B7C1CC;
+  --map-grid: rgba(14, 22, 33, 0.05);
+
+  /* ---------- type (05 §2): pt = CSS px on iPad ---------- */
+  --font: -apple-system, system-ui, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: -apple-system, system-ui, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, "DejaVu Sans Mono", monospace;
+  --t-display-xl: 600 88px/96px var(--font-display);
+  --t-display: 600 56px/64px var(--font-display);
+  --t-hero: 600 44px/52px var(--font-display);
+  --t-title-1: 600 34px/40px var(--font-display);
+  --t-title-2: 600 28px/34px var(--font-display);
+  --t-title-3: 500 22px/28px var(--font);
+  --t-body: 400 17px/24px var(--font);
+  --t-callout: 400 15px/20px var(--font);
+  --t-caption: 500 13px/16px var(--font);
+
+  /* ---------- space (4-pt base) ---------- */
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 20px; --s-6: 24px; --s-8: 32px; --s-10: 40px; --s-12: 48px;
+
+  /* ---------- shape ---------- */
+  --r-card: 20px;
+  --r-btn: 14px;
+  --r-pill: 999px;
+
+  /* ---------- targets (05 §5) ---------- */
+  --tap-clinical: 64px;
+  --tap-operator: 56px;
+  --tap-tech: 44px;
+  --tile: 144px;
+
+  /* ---------- chrome sizes (05 §6) ---------- */
+  --nav-w: 104px;
+  --rail-w: 112px;
+  --bar-h: 56px;
+  --ribbon-h: 64px;
+  --tabbar-h: 72px;
+  --band-h: 104px;
+
+  /* ---------- motion (05 §8) ---------- */
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --t-push: 220ms;
+  --t-sweep: 300ms;
+  --t-fade: 400ms;
+
+  color-scheme: light;
+}
+
+:root[data-theme="dim"] {
+  --bg: #07090C;
+  --surface: #10141A;
+  --surface-2: #171C24;
+  --surface-3: #1E2530;
+  --border: #2A3342;
+  --border-strong: #56627A;
+  --text: #D9DEE6;
+  --text-2: #8E99A8;
+  --text-on-fill: #FFFFFF;
+  --scrim: rgba(0, 0, 0, 0.55);
+  --shadow: none;
+
+  --robot-driving: #6B9BFF;
+  --robot-driving-soft: #132038;
+  --person-driving: #FF7EB6;
+  --person-driving-soft: #2E1424;
+  --standby: #94A3B8;
+  --standby-soft: #1A212B;
+  --off: #6B7686;
+  --off-soft: #151A21;
+  --ok: #3CC59A;
+  --ok-soft: #0F2620;
+  --alarm-high: #FF5A4E;
+  --alarm-high-fill: #D92D20;
+  --alarm-high-soft: #2C1110;
+  --alarm-med: #F5A524;
+  --alarm-med-fill: #F5A524;
+  --alarm-med-soft: #2A1E0A;
+  --on-alarm-med: #1A1206;
+  --alarm-low: #3FD0E6;
+  --alarm-low-fill: #3FD0E6;
+  --alarm-low-soft: #0C2328;
+  --on-alarm-low: #06222A;
+  --focus: #6B9BFF;
+  --stripe: rgba(255, 255, 255, 0.07);
+
+  --media-dim: 0.8;
+
+  --map-bg: #0B0E13;
+  --map-free: #151A22;
+  --map-occ: #8E99A8;
+  --map-unknown: #0B0E13;
+  --map-room: #121720;
+  --map-room-edge: #2A3342;
+  --map-grid: rgba(217, 222, 230, 0.04);
+
+  color-scheme: dark;
+}
+
+/* Fill colours used under white text: the Light fills are the text tokens; in dim the saturated
+   text tokens are too light for white text, so fills get their own darker variants. */
+:root { --fill-robot: #1F5FD6; --fill-person: #B0307A; --fill-standby: #516173; --fill-off: #5F6A76; --fill-ok: #0B7A5C; }
+:root[data-theme="dim"] { --fill-robot: #2F63C9; --fill-person: #A8306F; --fill-standby: #3D4A5B; --fill-off: #353D48; --fill-ok: #11775A; }

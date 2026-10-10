@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-GB" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>G1 Theatre</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="description" content="Controller for the G1 theatre robot in the surgical wing.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="G1 Theatre">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#F4F6F8" id="meta-theme">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon-180.png">
+<script>
+  // Theme before first paint: never a white flash in Theatre dim (05 §10).
+  (function () {
+    var t = 'light';
+    try { t = JSON.parse(localStorage.getItem('g1.theme')) || 'light'; } catch (e) {}
+    if (t !== 'dim') t = 'light';
+    document.documentElement.dataset.theme = t;
+    document.documentElement.style.background = t === 'dim' ? '#07090C' : '#F4F6F8';
+    var m = document.getElementById('meta-theme'); if (m) m.content = t === 'dim' ? '#07090C' : '#F4F6F8';
+    try { if (JSON.parse(localStorage.getItem('g1.mirror'))) document.documentElement.dataset.mirror = '1'; } catch (e) {}
+  })();
+</script>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app" data-role="clinical" data-fam="unknown" data-screen="home">
+  <nav id="navrail" aria-label="Screens"></nav>
+  <header id="statusbar"></header>
+  <div id="ribbon" role="status" aria-live="polite"></div>
+  <div id="banners"></div>
+  <main id="main" tabindex="-1"></main>
+  <div id="float-host"></div>
+  <aside id="safety" aria-label="Safety controls"></aside>
+  <div id="across" hidden></div>
+  <div id="sheet-host" hidden></div>
+  <div id="toast-host" aria-live="polite"></div>
+</div>
+<div id="clean-lock" hidden></div>
+<noscript><p style="font:17px system-ui;padding:24px">This app needs JavaScript.</p></noscript>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

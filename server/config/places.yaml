@@ -1,0 +1,83 @@
+# Display metadata for the named locations in ros2_ws/src/hospital-sim-ros2/g1_mission/config/locations.yaml (map frame; that file is
+# generated, so display data lives here). allowed_roles: list or "all". kind: place | dock | standby | station.
+# Order here = order of the "Send to…" tiles. Unlisted locations get defaults (operator + technician only).
+defaults:
+  allowed_roles: [operator, technician]
+  icon: pin
+places:
+  theatre_door:
+    name: Theatre 1
+    room: Theatre 1
+    icon: theatre
+    kind: place
+    allowed_roles: all
+  corridor_theatre:
+    name: Theatre 1 standby
+    room: Surgical corridor
+    icon: standby
+    kind: standby
+    allowed_roles: all
+  sterile_store:
+    name: Sterile store
+    room: Sterile store
+    icon: store
+    allowed_roles: all
+  scrub_room:
+    name: Scrub room
+    room: Scrub room
+    icon: sink
+    allowed_roles: all
+  corridor_west:
+    name: Corridor west
+    room: Surgical corridor
+    icon: corridor
+    allowed_roles: all
+  theatre_instrument_table:
+    name: Theatre 1 · instrument table
+    room: Theatre 1
+    icon: table
+    kind: station
+  theatre_surgeon_side:
+    name: Theatre 1 · surgeon side
+    room: Theatre 1
+    icon: handover
+    kind: station
+  # main hospital + rest of the wing (2026-10-09, with the hospital_full SLAM map)
+  pre_op:
+    name: Pre-op
+    room: Pre-op
+    icon: pin
+    kind: place
+  pacu:
+    name: Recovery (PACU)
+    room: PACU
+    icon: pin
+    kind: place
+  main_lobby:
+    name: Main lobby
+    room: Main lobby
+    icon: pin
+    kind: place
+  se_lobby:
+    name: South-east lobby
+    room: Main hospital
+    icon: pin
+    kind: place
+  east_wing_corridor:
+    name: East wing corridor
+    room: Main hospital
+    icon: pin
+    kind: place
+  west_wing_corridor:
+    name: West wing corridor
+    room: Main hospital
+    icon: pin
+    kind: place
+extra:
+  dock:
+    alias_of: corridor_west      # no charging dock in the sim yet: the corridor west end stands in
+    name: Dock
+    room: Surgical corridor
+    icon: dock
+    kind: dock
+    allowed_roles: all

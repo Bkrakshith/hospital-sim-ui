@@ -1,0 +1,28 @@
+# Sign-in configuration (hospital-sim-ui/PROTOCOL.md v2, docs/ui/04 §3). PINs are PBKDF2-SHA256 hashes.
+# TEST DEFAULTS (change before any hospital use):  operator role PIN 123456 · technician role PIN 987654
+#   users: R. Kumar (operator) PIN 246810, badge 04A1B2C3 · T. Lee (technician) PIN 135790, badge 04D4E5F6
+# Change a role PIN:  python hospital-sim-ui/server/auth.py set-pin operator <new pin>   ·   hash only: auth.py hash <pin>
+roles:
+  clinical:
+    pin: null                 # walk-up-and-use (set a 4-digit ward PIN hash here to require one)
+    idle_timeout_s: 0         # never exits (the app locks to tap-to-wake after 2 min)
+  operator:
+    pin: "pbkdf2_sha256$120000$27e0fac5ae0b64e4$66c4e5dc2958f98f5aff58500e71fefbf764115ffd546f0818b51ddab6c94500"
+    idle_timeout_s: 600       # back to clinical after 10 min idle
+  technician:
+    pin: "pbkdf2_sha256$120000$daa04ef84720c62f$b8f420cb1dd3082646c5c42b7abc382fee2f2732cbdf4c40298e7bc1948be195"
+    idle_timeout_s: 300       # back to clinical after 5 min idle
+    two_factor: false         # true = personal badge + PIN (04 §3); false while testing
+users:
+  - name: R. Kumar
+    role: operator
+    pin: "pbkdf2_sha256$120000$f0ef45fd5004f798$6b0f7bf1bb7a3419e3e16b3f90b0d6fa0aa2e0cb68725a03123042844c7f1428"
+    badge: 04A1B2C3
+  - name: T. Lee
+    role: technician
+    pin: "pbkdf2_sha256$120000$39075e65bcbdb0a2$73283000eb10fb61eabc183ce0709e1e697ce016b8a1dce96a9d63612f84c29a"
+    badge: 04D4E5F6
+lockout:
+  max_attempts: 5             # wrong PINs within window_s -> locked for lock_s
+  window_s: 300
+  lock_s: 60

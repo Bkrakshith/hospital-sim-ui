@@ -1,0 +1,5234 @@
+{
+ "home": [
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Send to",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Instruments",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Checks",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Status",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-clinical",
+   "name": "Clinical mode. Tap to sign in as operator or technician.",
+   "w": 188,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Send to\u2026 Pick a room",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Request instrument Starts scrub assist in Theatre 1",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Come here To Theatre 1",
+   "w": 182,
+   "h": 166,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Go to dock Corridor, west end",
+   "w": 182,
+   "h": 166,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Send problem to technician",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Clean screen",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "clinical",
+   "zone": "safety"
+  }
+ ],
+ "places": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Send to",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Instruments",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Checks",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Status",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-clinical",
+   "name": "Clinical mode. Tap to sign in as operator or technician.",
+   "w": 188,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "place-tile has-stripe",
+   "name": "Theatre 1, Just inside the door, about ~1 min",
+   "w": 299,
+   "h": 248,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "place-tile has-stripe",
+   "name": "Theatre 1 standby, Outside Theatre 1, about ~1 min",
+   "w": 299,
+   "h": 248,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "place-tile",
+   "name": "Sterile store, Inside the door, about ~1 min",
+   "w": 299,
+   "h": 248,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "place-tile",
+   "name": "Scrub room, Inside the door, about ~1 min",
+   "w": 299,
+   "h": 248,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "place-tile",
+   "name": "Corridor west, Corridor, west end, about ~45 s",
+   "w": 299,
+   "h": 248,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "place-tile",
+   "name": "Dock, , about ~45 s",
+   "w": 299,
+   "h": 248,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "clinical",
+   "zone": "safety"
+  }
+ ],
+ "instruments": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Send to",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Instruments",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Checks",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Status",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-clinical",
+   "name": "Clinical mode. Tap to sign in as operator or technician.",
+   "w": 188,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b on",
+   "name": "Surgeon",
+   "w": 106,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Scrub nurse",
+   "w": 139,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "inst-tile",
+   "name": "Scalpel. On the rack.",
+   "w": 200,
+   "h": 224,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "inst-tile",
+   "name": "Mayo scissors. On the rack.",
+   "w": 200,
+   "h": 224,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "inst-tile",
+   "name": "Angled tweezers. On the rack.",
+   "w": 200,
+   "h": 236,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "inst-tile",
+   "name": "Adson forceps. On the rack.",
+   "w": 200,
+   "h": 236,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "inst-tile",
+   "name": "Veress needle. On the rack.",
+   "w": 200,
+   "h": 252,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "inst-tile",
+   "name": "Trocar. On the rack.",
+   "w": 200,
+   "h": 252,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "inst-tile",
+   "name": "Needle driver. On the rack.",
+   "w": 200,
+   "h": 236,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "clinical",
+   "zone": "safety"
+  }
+ ],
+ "checks": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Send to",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Instruments",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Checks",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Status",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-clinical",
+   "name": "Clinical mode. Tap to sign in as operator or technician.",
+   "w": 188,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b on",
+   "name": "Start of day",
+   "w": 173,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Handover card",
+   "w": 200,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "End of shift",
+   "w": 170,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-primary btn-clinical btn-xl",
+   "name": "Yes",
+   "w": 200,
+   "h": 88,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical btn-xl",
+   "name": "No",
+   "w": 200,
+   "h": 88,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-ghost btn-operator",
+   "name": "Run again",
+   "w": 171,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "clinical",
+   "zone": "safety"
+  }
+ ],
+ "status": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Send to",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Instruments",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Checks",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Status",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-clinical",
+   "name": "Clinical mode. Tap to sign in as operator or technician.",
+   "w": 188,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-operator",
+   "name": "Alarms",
+   "w": 142,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-operator",
+   "name": "Send problem to technician",
+   "w": 336,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "clinical",
+   "zone": "safety"
+  }
+ ],
+ "signin": [
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Send to",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Instruments",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Checks",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Status",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-clinical",
+   "name": "Clinical mode. Tap to sign in as operator or technician.",
+   "w": 188,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Send to\u2026 Pick a room",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Request instrument Starts scrub assist in Theatre 1",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Come here To Theatre 1",
+   "w": 182,
+   "h": 166,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Go to dock Corridor, west end",
+   "w": 182,
+   "h": 166,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Send problem to technician",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Clean screen",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-ghost btn-operator sheet-close",
+   "name": "Close",
+   "w": 127,
+   "h": 64,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "role-card",
+   "name": "Operator Map, manual walking, camera arms, missions",
+   "w": 287,
+   "h": 176,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "role-card",
+   "name": "Technician Diagnostics, mapping, logs, audit, calibration",
+   "w": 287,
+   "h": 176,
+   "role": "clinical",
+   "zone": "sheet"
+  }
+ ],
+ "pinpad": [
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Send to",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Instruments",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Checks",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Status",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-clinical",
+   "name": "Clinical mode. Tap to sign in as operator or technician.",
+   "w": 188,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Send to\u2026 Pick a room",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Request instrument Starts scrub assist in Theatre 1",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Come here To Theatre 1",
+   "w": 182,
+   "h": 166,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Go to dock Corridor, west end",
+   "w": 182,
+   "h": 166,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Send problem to technician",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Clean screen",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-ghost btn-operator sheet-close",
+   "name": "Close",
+   "w": 127,
+   "h": 64,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "INPUT",
+   "cls": "input",
+   "name": "Your name",
+   "w": 538,
+   "h": 52,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "key",
+   "name": "1",
+   "w": 88,
+   "h": 72,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "key",
+   "name": "2",
+   "w": 88,
+   "h": 72,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "key",
+   "name": "3",
+   "w": 88,
+   "h": 72,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "key",
+   "name": "4",
+   "w": 88,
+   "h": 72,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "key",
+   "name": "5",
+   "w": 88,
+   "h": 72,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "key",
+   "name": "6",
+   "w": 88,
+   "h": 72,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "key",
+   "name": "7",
+   "w": 88,
+   "h": 72,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "key",
+   "name": "8",
+   "w": 88,
+   "h": 72,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "key",
+   "name": "9",
+   "w": 88,
+   "h": 72,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "key",
+   "name": "0",
+   "w": 88,
+   "h": 72,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "key",
+   "name": "Delete",
+   "w": 88,
+   "h": 72,
+   "role": "clinical",
+   "zone": "sheet"
+  }
+ ],
+ "problem": [
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Send to",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Instruments",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Checks",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Status",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-clinical",
+   "name": "Clinical mode. Tap to sign in as operator or technician.",
+   "w": 188,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Send to\u2026 Pick a room",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Request instrument Starts scrub assist in Theatre 1",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Come here To Theatre 1",
+   "w": 182,
+   "h": 166,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Go to dock Corridor, west end",
+   "w": 182,
+   "h": 166,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Send problem to technician",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Clean screen",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-ghost btn-operator sheet-close",
+   "name": "Close",
+   "w": 127,
+   "h": 64,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip-btn on",
+   "name": "Stuck",
+   "w": 127,
+   "h": 64,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip-btn",
+   "name": "Fell",
+   "w": 79,
+   "h": 64,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip-btn",
+   "name": "Wrong place",
+   "w": 164,
+   "h": 64,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip-btn",
+   "name": "Wrong instrument",
+   "w": 218,
+   "h": 64,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip-btn",
+   "name": "Noise or smell",
+   "w": 180,
+   "h": 64,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip-btn",
+   "name": "Behaving oddly",
+   "w": 192,
+   "h": 64,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip-btn",
+   "name": "Other",
+   "w": 100,
+   "h": 64,
+   "role": "clinical",
+   "zone": "sheet"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-primary btn-clinical",
+   "name": "Send to technician",
+   "w": 273,
+   "h": 64,
+   "role": "clinical",
+   "zone": "sheet"
+  }
+ ],
+ "readback": [
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Send to",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Instruments",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Checks",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Status",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-clinical",
+   "name": "Clinical mode. Tap to sign in as operator or technician.",
+   "w": 188,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Send to\u2026 Pick a room",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Request instrument Starts scrub assist in Theatre 1",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Come here To Theatre 1",
+   "w": 182,
+   "h": 166,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Go to dock Corridor, west end",
+   "w": 182,
+   "h": 166,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Send problem to technician",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Clean screen",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-undo btn-clinical",
+   "name": "Undo",
+   "w": 220,
+   "h": 72,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "clinical",
+   "zone": "safety"
+  }
+ ],
+ "across": [
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Send to",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Instruments",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Checks",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Status",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-clinical",
+   "name": "Clinical mode. Tap to sign in as operator or technician.",
+   "w": 188,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-onfill btn-clinical",
+   "name": "Acknowledge",
+   "w": 216,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-onfill-ghost btn-clinical",
+   "name": "Send to technician",
+   "w": 273,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Cancel task",
+   "w": 198,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Send to\u2026 Pick a room",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Request instrument Starts scrub assist in Theatre 1",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Come here To Theatre 1",
+   "w": 182,
+   "h": 166,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Go to dock Corridor, west end",
+   "w": 182,
+   "h": 166,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Send problem to technician",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Clean screen",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: 1. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "clinical",
+   "zone": "safety"
+  }
+ ],
+ "stopped": [
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Send to",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Instruments",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Checks",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Status",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-clinical",
+   "name": "Clinical mode. Tap to sign in as operator or technician.",
+   "w": 188,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "DIV",
+   "cls": "slide slide-robot",
+   "name": "Slide to continue to Sterile store (10 m). Slide right to co",
+   "w": 483,
+   "h": 72,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Cancel task",
+   "w": 198,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-ghost btn-clinical",
+   "name": "Send problem to technician",
+   "w": 367,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Send to\u2026 Pick a room",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Request instrument Starts scrub assist in Theatre 1",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile blocked",
+   "name": "Come here Robot is stopped. Resume or cancel first",
+   "w": 182,
+   "h": 206,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile blocked",
+   "name": "Go to dock Robot is stopped. Resume or cancel first",
+   "w": 182,
+   "h": 206,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Send problem to technician",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Clean screen",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-ghost btn-operator",
+   "name": "Dismiss",
+   "w": 64,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip-btn",
+   "name": "Person in the way",
+   "w": 214,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip-btn",
+   "name": "Wrong task",
+   "w": 214,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip-btn",
+   "name": "Robot behaving oddly",
+   "w": 214,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip-btn",
+   "name": "Other",
+   "w": 214,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "clinical",
+   "zone": "safety"
+  }
+ ],
+ "alarm": [
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Send to",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Instruments",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Checks",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Status",
+   "w": 87,
+   "h": 72,
+   "role": "clinical",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-clinical",
+   "name": "Clinical mode. Tap to sign in as operator or technician.",
+   "w": 188,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "clinical",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-onfill btn-clinical",
+   "name": "Acknowledge",
+   "w": 216,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-onfill-ghost btn-clinical",
+   "name": "Send to technician",
+   "w": 273,
+   "h": 64,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Send to\u2026 Pick a room",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile",
+   "name": "Request instrument Starts scrub assist in Theatre 1",
+   "w": 182,
+   "h": 214,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile blocked",
+   "name": "Come here Robot is powered down. A technician stands it up f",
+   "w": 182,
+   "h": 206,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tile blocked",
+   "name": "Go to dock Robot is powered down. A technician stands it up ",
+   "w": 182,
+   "h": 206,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Send problem to technician",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-clinical",
+   "name": "Clean screen",
+   "w": 184,
+   "h": 78,
+   "role": "clinical",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: 1. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "clinical",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "clinical",
+   "zone": "safety"
+  }
+ ],
+ "map": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Map",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Walk",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Arms",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Missions",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Teach (coming soon)",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-operator",
+   "name": "Operator R. Kumar. Tap to sign out or switch.",
+   "w": 281,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-operator",
+   "name": "Zoom in",
+   "w": 56,
+   "h": 56,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-operator",
+   "name": "Zoom out",
+   "w": 56,
+   "h": 56,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-operator",
+   "name": "Fit the map",
+   "w": 56,
+   "h": 56,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-operator",
+   "name": "Centre on the robot",
+   "w": 56,
+   "h": 56,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tool on",
+   "name": "Move map",
+   "w": 166,
+   "h": 64,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tool",
+   "name": "Go to point",
+   "w": 166,
+   "h": 64,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tool",
+   "name": "Robot is here",
+   "w": 166,
+   "h": 64,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tool",
+   "name": "Add stop",
+   "w": 166,
+   "h": 64,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "place-row",
+   "name": "Theatre 1 Just inside the door",
+   "w": 340,
+   "h": 58,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "place-row",
+   "name": "Theatre 1 standby Outside Theatre 1",
+   "w": 340,
+   "h": 58,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "place-row",
+   "name": "Sterile store Inside the door",
+   "w": 340,
+   "h": 58,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "place-row",
+   "name": "Scrub room Inside the door",
+   "w": 340,
+   "h": 58,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "place-row",
+   "name": "Corridor west Corridor, west end",
+   "w": 340,
+   "h": 58,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "place-row",
+   "name": "Theatre 1 \u00b7 instrument table Instrument table \u00b7 standby",
+   "w": 340,
+   "h": 58,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "place-row",
+   "name": "Theatre 1 \u00b7 surgeon side Surgeon side (operator only)",
+   "w": 340,
+   "h": 58,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "place-row",
+   "name": "Dock",
+   "w": 340,
+   "h": 56,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "operator",
+   "zone": "safety"
+  }
+ ],
+ "missions": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Map",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Walk",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Arms",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Missions",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Teach (coming soon)",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-operator",
+   "name": "Operator R. Kumar. Tap to sign out or switch.",
+   "w": 281,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-operator",
+   "name": "Pause",
+   "w": 132,
+   "h": 56,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-operator",
+   "name": "Stop the task",
+   "w": 203,
+   "h": 56,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-ghost btn-operator",
+   "name": "Clear queue",
+   "w": 155,
+   "h": 56,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "operator",
+   "zone": "safety"
+  }
+ ],
+ "drive": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Map",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Walk",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Arms",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Missions",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Teach (coming soon)",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-operator",
+   "name": "Operator R. Kumar. Tap to sign out or switch.",
+   "w": 281,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "DIV",
+   "cls": "slide slide-person",
+   "name": "Slide to take control. Slide right to confirm, or press Ente",
+   "w": 423,
+   "h": 72,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-ghost btn-operator",
+   "name": "Robot camera",
+   "w": 207,
+   "h": 56,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "operator",
+   "zone": "safety"
+  }
+ ],
+ "arms": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Map",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Walk",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Arms",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Missions",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Teach (coming soon)",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-operator",
+   "name": "Operator R. Kumar. Tap to sign out or switch.",
+   "w": 281,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-operator",
+   "name": "Calibrate\u2026",
+   "w": 298,
+   "h": 56,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "DIV",
+   "cls": "slide slide-person",
+   "name": "Slide to use arms. Slide right to confirm, or press Enter",
+   "w": 298,
+   "h": 72,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-operator",
+   "name": "Re-centre",
+   "w": 168,
+   "h": 56,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-operator",
+   "name": "Auto-framing on",
+   "w": 230,
+   "h": 56,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: This iPad. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "operator",
+   "zone": "safety"
+  }
+ ],
+ "teach": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Map",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Walk",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Arms",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Missions",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "Teach (coming soon)",
+   "w": 87,
+   "h": 72,
+   "role": "operator",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-operator",
+   "name": "Operator R. Kumar. Tap to sign out or switch.",
+   "w": 281,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "operator",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-primary btn-operator",
+   "name": "Notify me",
+   "w": 166,
+   "h": 56,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tf-step on",
+   "name": "1 Define Technician",
+   "w": 109,
+   "h": 128,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tf-step",
+   "name": "2 Demonstrate Operator",
+   "w": 109,
+   "h": 136,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tf-step",
+   "name": "3 Review Task author",
+   "w": 109,
+   "h": 128,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tf-step",
+   "name": "4 Train Workstation",
+   "w": 109,
+   "h": 128,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tf-step",
+   "name": "5 Test in sim Automatic",
+   "w": 109,
+   "h": 136,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tf-step",
+   "name": "6 Dry run Operator + observer",
+   "w": 109,
+   "h": 132,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tf-step",
+   "name": "7 Approve Clinical lead + technician",
+   "w": 109,
+   "h": 132,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "tf-step",
+   "name": "8 Publish Automatic",
+   "w": 109,
+   "h": 128,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-operator",
+   "name": "Next step",
+   "w": 167,
+   "h": 56,
+   "role": "operator",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "operator",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "operator",
+   "zone": "safety"
+  }
+ ],
+ "tech_diagnostics": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Map",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Walk",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Arms",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Missions",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "System",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Teach (coming soon)",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-technician",
+   "name": "Technician T. Lee. Tap to sign out or switch.",
+   "w": 264,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "A",
+   "cls": "btn btn-ghost btn-tech",
+   "name": "Engineering console",
+   "w": 226,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b on",
+   "name": "Diagnostics",
+   "w": 163,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Mapping",
+   "w": 137,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Logs",
+   "w": 101,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Audit",
+   "w": 108,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Incidents",
+   "w": 142,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Calibration",
+   "w": 157,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "About",
+   "w": 113,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-tech",
+   "name": "Copy for incident",
+   "w": 200,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "technician",
+   "zone": "safety"
+  }
+ ],
+ "tech_mapping": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Map",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Walk",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Arms",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Missions",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "System",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Teach (coming soon)",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-technician",
+   "name": "Technician T. Lee. Tap to sign out or switch.",
+   "w": 264,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "A",
+   "cls": "btn btn-ghost btn-tech",
+   "name": "Engineering console",
+   "w": 226,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Diagnostics",
+   "w": 163,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b on",
+   "name": "Mapping",
+   "w": 137,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Logs",
+   "w": 101,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Audit",
+   "w": 108,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Incidents",
+   "w": 142,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Calibration",
+   "w": 157,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "About",
+   "w": 113,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-primary btn-tech",
+   "name": "Start SLAM",
+   "w": 151,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-tech",
+   "name": "Stop navigation",
+   "w": 162,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "INPUT",
+   "cls": "input",
+   "name": "Map name",
+   "w": 298,
+   "h": 52,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-tech",
+   "name": "Save map",
+   "w": 298,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-tech",
+   "name": "Load",
+   "w": 70,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold hold-inline",
+   "name": "Delete map hospital_gt: press and hold",
+   "w": 118,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-tech",
+   "name": "Load",
+   "w": 70,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold hold-inline",
+   "name": "Delete map hospital_wing_slam: press and hold",
+   "w": 118,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "technician",
+   "zone": "safety"
+  }
+ ],
+ "tech_logs": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Map",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Walk",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Arms",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Missions",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "System",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Teach (coming soon)",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-technician",
+   "name": "Technician T. Lee. Tap to sign out or switch.",
+   "w": 264,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "A",
+   "cls": "btn btn-ghost btn-tech",
+   "name": "Engineering console",
+   "w": 226,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Diagnostics",
+   "w": 163,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Mapping",
+   "w": 137,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b on",
+   "name": "Logs",
+   "w": 101,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Audit",
+   "w": 108,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Incidents",
+   "w": 142,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Calibration",
+   "w": 157,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "About",
+   "w": 113,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "debug",
+   "w": 88,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b on",
+   "name": "info",
+   "w": 66,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "warn",
+   "w": 76,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "error",
+   "w": 77,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "INPUT",
+   "cls": "input",
+   "name": "Search logs",
+   "w": 320,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "technician",
+   "zone": "safety"
+  }
+ ],
+ "tech_audit": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Map",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Walk",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Arms",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Missions",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "System",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Teach (coming soon)",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-technician",
+   "name": "Technician T. Lee. Tap to sign out or switch.",
+   "w": 264,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "A",
+   "cls": "btn btn-ghost btn-tech",
+   "name": "Engineering console",
+   "w": 226,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Diagnostics",
+   "w": 163,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Mapping",
+   "w": 137,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Logs",
+   "w": 101,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b on",
+   "name": "Audit",
+   "w": 108,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Incidents",
+   "w": 142,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Calibration",
+   "w": 157,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "About",
+   "w": 113,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-tech",
+   "name": "Refresh",
+   "w": 122,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-tech",
+   "name": "Verify chain",
+   "w": 157,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "technician",
+   "zone": "safety"
+  }
+ ],
+ "tech_incidents": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Map",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Walk",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Arms",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Missions",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "System",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Teach (coming soon)",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-technician",
+   "name": "Technician T. Lee. Tap to sign out or switch.",
+   "w": 264,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "A",
+   "cls": "btn btn-ghost btn-tech",
+   "name": "Engineering console",
+   "w": 226,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Diagnostics",
+   "w": 163,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Mapping",
+   "w": 137,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Logs",
+   "w": 101,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Audit",
+   "w": 108,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b on",
+   "name": "Incidents",
+   "w": 142,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Calibration",
+   "w": 157,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "About",
+   "w": 113,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "technician",
+   "zone": "safety"
+  }
+ ],
+ "tech_calibration": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Map",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Walk",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Arms",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Missions",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "System",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Teach (coming soon)",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-technician",
+   "name": "Technician T. Lee. Tap to sign out or switch.",
+   "w": 264,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "A",
+   "cls": "btn btn-ghost btn-tech",
+   "name": "Engineering console",
+   "w": 226,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Diagnostics",
+   "w": 163,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Mapping",
+   "w": 137,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Logs",
+   "w": 101,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Audit",
+   "w": 108,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Incidents",
+   "w": 142,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b on",
+   "name": "Calibration",
+   "w": 157,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "About",
+   "w": 113,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-primary btn-tech",
+   "name": "Calibrate (seated)\u2026",
+   "w": 223,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-tech",
+   "name": "Re-centre (h)",
+   "w": 140,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "btn btn-secondary btn-tech",
+   "name": "Auto-framing (f)",
+   "w": 165,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold hold-inline",
+   "name": "Clear calibration: press and hold",
+   "w": 230,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "technician",
+   "zone": "safety"
+  }
+ ],
+ "tech_about": [
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Home",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Map",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Walk",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Arms",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Missions",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item active",
+   "name": "System",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "A",
+   "cls": "nav-item",
+   "name": "Teach (coming soon)",
+   "w": 87,
+   "h": 72,
+   "role": "technician",
+   "zone": "nav"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-place",
+   "name": "This iPad: iPad OR-1 at Theatre 1. Tap for settings.",
+   "w": 99,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "chip chip-role role-technician",
+   "name": "Technician T. Lee. Tap to sign out or switch.",
+   "w": 264,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Sound not checked yet. Tap for a sound check.",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Switch to Theatre dim theme",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "sb-btn",
+   "name": "Help",
+   "w": 44,
+   "h": 44,
+   "role": "technician",
+   "zone": "bar"
+  },
+  {
+   "tag": "A",
+   "cls": "btn btn-ghost btn-tech",
+   "name": "Engineering console",
+   "w": 226,
+   "h": 44,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Diagnostics",
+   "w": 163,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Mapping",
+   "w": 137,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Logs",
+   "w": 101,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Audit",
+   "w": 108,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Incidents",
+   "w": 142,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b",
+   "name": "Calibration",
+   "w": 157,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "seg-b on",
+   "name": "About",
+   "w": 113,
+   "h": 48,
+   "role": "technician",
+   "zone": "main"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "stop",
+   "name": "Stop the robot. It holds still where it is.",
+   "w": 96,
+   "h": 120,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-lease",
+   "name": "Manual control: Nobody. Tap for details.",
+   "w": 95,
+   "h": 76,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "rail-item rail-alarms",
+   "name": "Alarms: none. Tap to see the list.",
+   "w": 95,
+   "h": 76,
+   "role": "technician",
+   "zone": "safety"
+  },
+  {
+   "tag": "BUTTON",
+   "cls": "hold power-off",
+   "name": "Power off. Press and hold for 1.5 seconds. The robot will si",
+   "w": 95,
+   "h": 130,
+   "role": "technician",
+   "zone": "safety"
+  }
+ ]
+}

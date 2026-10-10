@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+# runtime data written by the server
+server/audit/
+server/incidents/
+server/data/
+server/tls/out/
